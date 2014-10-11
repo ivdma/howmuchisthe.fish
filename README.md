@@ -1,6 +1,6 @@
 # howmuchisthe.fish ruby gem
 
-TODO: Write a gem description
+A wrapper for an awesome Scooter quote API.
 
 ## Installation
 
@@ -20,7 +20,35 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To get a random or daily quote
+
+```ruby
+HowMuchIsTheFish.random
+HowMuchIsTheFish.daily
+```
+
+The hash would look like:
+
+```ruby
+{
+  "id": 1,
+  "permalink": "http://howmuchisthe.fish/json/perma/1",
+  "quote": {
+    "text": "I want you back for the rhythm attack. Coming down on the floor like a maniac. I want you back for the rhythm-attack. Get down in full effect!",
+    "track": "How Much Is The Fish",
+    "album": "No time to chill",
+    "year": "1998",
+    "album_cover": "http://s.pixogs.com/image/R-61786-1184615486.jpeg",
+    "album_information": "http://www.discogs.com/Scooter-No-Time-To-Chill/master/3680"
+  }
+}
+```
+
+To get a quote by ID use
+
+```ruby
+HowMuchIsTheFish.perma(1) # Where 1 is ID of the quote.
+```
 
 ## Contributing
 
