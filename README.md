@@ -1,4 +1,4 @@
-[![Circle CI](https://circleci.com/gh/ivdma/howmuchisthe.fish/tree/master.png?style=badge)](https://circleci.com/gh/ivdma/howmuchisthe.fish/tree/master)
+[![Circle CI](https://circleci.com/gh/ivdma/howmuchisthe.fish/tree/master.png?style=shield)](https://circleci.com/gh/ivdma/howmuchisthe.fish/tree/master)
 
 # howmuchisthe.fish ruby gem
 
