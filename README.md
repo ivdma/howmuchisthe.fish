@@ -54,7 +54,7 @@ HowMuchIsTheFish.perma(1) # Where 1 is ID of the quote.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/how_much_is_the_fish/fork )
+1. Fork it ( https://github.com/ivdma/how_much_is_the_fish/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
