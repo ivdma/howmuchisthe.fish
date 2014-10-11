@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/ivdma/howmuchisthe.fish/tree/master.png?style=badge)](https://circleci.com/gh/ivdma/howmuchisthe.fish/tree/master)
+
 # howmuchisthe.fish ruby gem
 
 A wrapper for an awesome Scooter quote API.
