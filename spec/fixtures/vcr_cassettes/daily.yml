@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://howmuchisthe.fish/json/daily
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Sat, 11 Oct 2014 16:45:46 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '347'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"id":5,"permalink":"http://howmuchisthe.fish/json/perma/5","quote":{"text":"It''s
+        so beautiful to see your hands in the air!","track":"Hyper Hyper","album":"And
+        the beat goes on!","year":"1995","album_cover":"http://s.pixogs.com/image/R-20580-1274203380.jpeg","album_information":"http://www.discogs.com/Scooter-And-The-Beat-Goes-On/master/3018"}}'
+    http_version: 
+  recorded_at: Sat, 11 Oct 2014 16:45:46 GMT
+- request:
+    method: get
+    uri: http://howmuchisthe.fish/json/daily
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Sat, 11 Oct 2014 16:45:46 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '347'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"id":5,"permalink":"http://howmuchisthe.fish/json/perma/5","quote":{"text":"It''s
+        so beautiful to see your hands in the air!","track":"Hyper Hyper","album":"And
+        the beat goes on!","year":"1995","album_cover":"http://s.pixogs.com/image/R-20580-1274203380.jpeg","album_information":"http://www.discogs.com/Scooter-And-The-Beat-Goes-On/master/3018"}}'
+    http_version: 
+  recorded_at: Sat, 11 Oct 2014 16:45:46 GMT
+recorded_with: VCR 2.9.3

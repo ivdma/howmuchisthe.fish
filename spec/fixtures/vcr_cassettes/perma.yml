@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://howmuchisthe.fish/json/perma/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Sat, 11 Oct 2014 16:45:46 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '444'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"id":"1","permalink":"http://howmuchisthe.fish/json/perma/1","quote":{"text":"I
+        want you back for the rhythm attack. Coming down on the floor like a maniac.
+        I want you back for the rhythm-attack. Get down in full effect!","track":"How
+        much is the fish","album":"No time to chill","year":"1998","album_cover":"http://s.pixogs.com/image/R-61786-1184615486.jpeg","album_information":"http://www.discogs.com/Scooter-No-Time-To-Chill/master/3680"}}'
+    http_version: 
+  recorded_at: Sat, 11 Oct 2014 16:45:46 GMT
+- request:
+    method: get
+    uri: http://howmuchisthe.fish/json/perma/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Sat, 11 Oct 2014 16:45:46 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '444'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+    body:
+      encoding: UTF-8
+      string: '{"id":"1","permalink":"http://howmuchisthe.fish/json/perma/1","quote":{"text":"I
+        want you back for the rhythm attack. Coming down on the floor like a maniac.
+        I want you back for the rhythm-attack. Get down in full effect!","track":"How
+        much is the fish","album":"No time to chill","year":"1998","album_cover":"http://s.pixogs.com/image/R-61786-1184615486.jpeg","album_information":"http://www.discogs.com/Scooter-No-Time-To-Chill/master/3680"}}'
+    http_version: 
+  recorded_at: Sat, 11 Oct 2014 16:45:46 GMT
+recorded_with: VCR 2.9.3
