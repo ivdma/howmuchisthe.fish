@@ -12,6 +12,10 @@ module HowMuchIsTheFish
     self.client.random
   end
 
+  def self.generate
+    self.client.generate
+  end
+
   def self.perma(number)
     self.client.perma(number)
   end

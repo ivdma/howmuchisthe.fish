@@ -20,5 +20,12 @@ module HowMuchIsTheFish
         JSON.parse(response)
       end
     end
+
+    def generate
+      self.class.get("/random/generate") do |response|
+        JSON.parse(response)
+      end
+    end
+
   end
 end
